@@ -3,7 +3,7 @@ return {
   opts = {
     inlay_hints = {
       enabled = true,
-      exclude = { "vue", "typescript" },
+      exclude = { "vue", "typescript", "go" },
     },
     servers = {
       tailwindcss = {
