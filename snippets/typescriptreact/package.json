@@ -1,0 +1,29 @@
+{
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React Code Snippets",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "all",
+                "path": "./react.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./react.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./react.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./react.json"
+            },
+            {
+                "language": "tsx",
+                "path": "./react.json"
+            }
+        ]
+    }
+}

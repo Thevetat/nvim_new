@@ -1,0 +1,11 @@
+{
+    "Test TSX Snippet": {
+        "prefix": "tsxtest",
+        "body": [
+            "const TestComponent: React.FC = () => {",
+            "    return <div>Test TSX Snippet</div>;",
+            "};"
+        ],
+        "description": "Test TypeScript React Snippet"
+    }
+}
