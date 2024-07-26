@@ -1,11 +1,17 @@
 {
-    "Test TSX Snippet": {
-        "prefix": "tsxtest",
+    "React Component": {
+        "prefix": "baserc",
         "body": [
-            "const TestComponent: React.FC = () => {",
-            "    return <div>Test TSX Snippet</div>;",
-            "};"
+            "function ${1:component_name}() {",
+            "\treturn (",
+            "\t\t<div>",
+            "\t\t\t${2:content}",
+            "\t\t</div>",
+            "\t)",
+            "}",
+            "",
+            "export default ${1:component_name}"
         ],
-        "description": "Test TypeScript React Snippet"
+        "description": "Base React Component"
     }
 }

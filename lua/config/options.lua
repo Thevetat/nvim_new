@@ -64,9 +64,3 @@ end
 
 g.transparency = true
 vim.cmd([[set pumblend=0]])
-
-vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
-  filter = function(diagnostic)
-    return not string.match(diagnostic.message, "Unknown at rule @apply")
-  end,
-})
