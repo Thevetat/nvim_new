@@ -5,5 +5,5 @@ return {
     enabled = true,
   },
 
-  { "rafamadriz/friendly-snippets", enabled = true },
+  { "rafamadriz/friendly-snippets", enabled = false },
 }
