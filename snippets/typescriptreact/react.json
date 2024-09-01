@@ -1,6 +1,6 @@
 {
     "React Component": {
-        "prefix": "baserc",
+        "prefix": "rbase",
         "body": [
             "function ${1:component_name}() {",
             "\treturn (",
