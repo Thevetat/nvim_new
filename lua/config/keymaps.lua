@@ -53,3 +53,5 @@ map("i", "<M-j>", "<esc><cmd>m .+1<cr>==gi", { desc = "Move down" })
 map("i", "<M-k>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move up" })
 map("v", "<M-j>", ":m '>+1<cr>gv=gv", { desc = "Move down" })
 map("v", "<M-k>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
+
+map({ "n", "i", "v" }, "<D-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
